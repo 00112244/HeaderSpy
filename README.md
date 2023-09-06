@@ -1,4 +1,4 @@
-# HeaderSpy
+# Headerspy
 
 Welcome to the HeaderSpy, a powerful tool designed to extract and analyze email headers. This tool empowers you to effortlessly retrieve valuable information such as sender details, recipient information, timestamps, and routing data from email headers.
 
@@ -40,12 +40,12 @@ Before you begin, ensure you have met the following requirements:
 1. **Cloning:** Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/HeaderSpy.git
+   git clone https://github.com/yourusername/Headerspy.git
 
 2. **Change Directory:** Navigate to the project directory using the `cd` command:
 
    ```shell
-   cd HeaderSpy
+   cd Headerspy
    ```
 
 ## Install Dependencies
@@ -60,26 +60,26 @@ Before you begin, ensure you have met the following requirements:
 **Commands:**
 
    ```shell
-   python HeaderSpy.py -hf {file path or file name}
+   python Headerspy.py -hf {file path or file name}
    ```
 
 - You can use both the path of the email header file or Header file name.
 - While using File name ,the email header file and the tool should be same in location.   
 
  ```shell 
-  python HeaderSpy.py -hf header.txt 
+  python Headerspy.py -hf header.txt 
    ```
    ```shell
-   python HeaderSpy --header_file header.txt 
+   python Headerspy --header_file header.txt 
    ```
  - Both of the Commands, Analyzes the email header in the 'header.txt' file and displays the results on the console.
 
 
  ```shell
-   python HeaderSpy.py -hf header.txt -O results.txt
+   python Headerspy.py -hf header.txt -O results.txt
    ```
  ```shell
-    python HeaderSpy.py --header_file header.txt --output_file results.txt
+    python Headerspy.py --header_file header.txt --output_file results.txt
    ```
    
 - Both the Commands, Analyzes the email header in the 'header.txt' file and saves the analysis results in the 'results.txt' file.
@@ -88,7 +88,7 @@ Before you begin, ensure you have met the following requirements:
 
 This tool was developed by **Hariharan.T**
 
-  Thank you for using HeaderSpy, and we hope it simplifies your email header analysis tasks. 
+  Thank you for using Headerspy, and we hope it simplifies your email header analysis tasks. 
 
 
 ## License
